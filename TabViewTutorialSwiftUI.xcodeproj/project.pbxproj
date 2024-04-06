@@ -11,6 +11,9 @@
 		58A44DF42BC0C0DF000DAFFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44DF32BC0C0DF000DAFFC /* ContentView.swift */; };
 		58A44DF62BC0C0E1000DAFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A44DF52BC0C0E1000DAFFC /* Assets.xcassets */; };
 		58A44DF92BC0C0E1000DAFFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A44DF82BC0C0E1000DAFFC /* Preview Assets.xcassets */; };
+		58A44E002BC0C4CD000DAFFC /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44DFF2BC0C4CD000DAFFC /* CallView.swift */; };
+		58A44E022BC0C59F000DAFFC /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44E012BC0C59F000DAFFC /* ContactView.swift */; };
+		58A44E042BC0C5AF000DAFFC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44E032BC0C5AF000DAFFC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		58A44DF32BC0C0DF000DAFFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58A44DF52BC0C0E1000DAFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58A44DF82BC0C0E1000DAFFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58A44DFF2BC0C4CD000DAFFC /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		58A44E012BC0C59F000DAFFC /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		58A44E032BC0C5AF000DAFFC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,9 @@
 		58A44DE52BC0C0DF000DAFFC = {
 			isa = PBXGroup;
 			children = (
+				58A44E032BC0C5AF000DAFFC /* SettingsView.swift */,
+				58A44E012BC0C59F000DAFFC /* ContactView.swift */,
+				58A44DFF2BC0C4CD000DAFFC /* CallView.swift */,
 				58A44DF02BC0C0DF000DAFFC /* TabViewTutorialSwiftUI */,
 				58A44DEF2BC0C0DF000DAFFC /* Products */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A44DF42BC0C0DF000DAFFC /* ContentView.swift in Sources */,
+				58A44E002BC0C4CD000DAFFC /* CallView.swift in Sources */,
+				58A44E042BC0C5AF000DAFFC /* SettingsView.swift in Sources */,
 				58A44DF22BC0C0DF000DAFFC /* TabViewTutorialSwiftUIApp.swift in Sources */,
+				58A44E022BC0C59F000DAFFC /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

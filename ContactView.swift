@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Person2View: View {
+struct ContactView: View {
     var body: some View {
         ZStack{
             Color.blue
@@ -20,5 +20,5 @@ struct Person2View: View {
 }
 
 #Preview {
-    Person2View()
+    ContactView()
 }

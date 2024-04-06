@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SliderView: View {
+struct SettingsView: View {
     var body: some View {
         ZStack{
             Color.green
@@ -20,5 +20,5 @@ struct SliderView: View {
 }
 
 #Preview {
-    SliderView()
+    SettingsView()
 }
